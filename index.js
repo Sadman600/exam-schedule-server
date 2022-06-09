@@ -72,7 +72,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Exam Schedule !');
+    res.send('Exam Schedule Server!');
 })
 
 app.listen(port, () => {
